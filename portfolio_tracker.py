@@ -1,32 +1,12 @@
 import requests
-import pandas as pd
-from datetime import datetime
-import gspread
 import json
+import csv
 import os
-from google.oauth2.service_account import Credentials
+from datetime import datetime
 
-def fetch_pendle_and_save_to_sheet():
-    # Service account authentication using GitHub secrets
-    credentials_json = json.loads(os.environ.get('GOOGLE_CREDENTIALS'))
-    scope = [
-        'https://www.googleapis.com/auth/spreadsheets',
-        'https://www.googleapis.com/auth/drive'
-    ]
-    
-    credentials = Credentials.from_service_account_info(
-        credentials_json, 
-        scopes=scope
-    )
-    
-    gc = gspread.authorize(credentials)
-    
-    # Open the Google Sheet
-    sheet_id = os.environ.get('SHEET_ID')
-    sheet = gc.open_by_key(sheet_id).sheet1
-    
+def fetch_pendle_and_save_to_repo():
     # Fetch data from Pendle API
-    wallet_address = os.environ.get('WALLET_ADDRESS')
+    wallet_address = os.environ.get('WALLET_ADDRESS', '0x7694c57016F7f1E8Aea7EEcf7dF886f138Bc4aC7')
     url = f"https://api-v2.pendle.finance/core/v1/dashboard/positions/database/{wallet_address}"
     
     response = requests.get(url)
@@ -43,9 +23,32 @@ def fetch_pendle_and_save_to_sheet():
     # Get current date
     current_date = datetime.now().strftime("%Y-%m-%d")
     
-    # Append to sheet
-    sheet.append_row([current_date, total_value])
-    print(f"Updated sheet with portfolio value: ${total_value} on {current_date}")
+    # Save raw API response for reference
+    with open('latest_data.json', 'w') as f:
+        json.dump(data, f, indent=2)
+    
+    # Append to CSV history file
+    csv_file = 'portfolio_history.csv'
+    file_exists = os.path.isfile(csv_file)
+    
+    with open(csv_file, 'a', newline='') as f:
+        writer = csv.writer(f)
+        # Write header if file doesn't exist
+        if not file_exists:
+            writer.writerow(['Date', 'Total Value ($)'])
+        writer.writerow([current_date, total_value])
+    
+    # Update summary file
+    summary = {
+        'last_updated': current_date,
+        'total_value': total_value,
+        'wallet_address': wallet_address
+    }
+    
+    with open('portfolio_summary.json', 'w') as f:
+        json.dump(summary, f, indent=2)
+    
+    print(f"Updated repository with portfolio value: ${total_value} on {current_date}")
 
 if __name__ == "__main__":
-    fetch_pendle_and_save_to_sheet()
+    fetch_pendle_and_save_to_repo()
