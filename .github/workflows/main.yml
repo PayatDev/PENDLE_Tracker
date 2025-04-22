@@ -2,7 +2,7 @@ name: Update Pendle Portfolio
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Run every 15 minutes (for testing)
+    - cron: '0 10 * * 1'  # Run every Monday at 10:00 UTC
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
