@@ -1,0 +1,169 @@
+{
+  "positions": [
+    {
+      "chainId": 42161,
+      "totalOpen": 1,
+      "totalClosed": 8,
+      "totalSy": 2,
+      "openPositions": [
+        {
+          "marketId": "42161-0x14fbc760efaf36781cb0eb3cb255ad976117b9bd",
+          "pt": {
+            "valuation": 0,
+            "balance": "0"
+          },
+          "yt": {
+            "valuation": 0,
+            "balance": "0"
+          },
+          "lp": {
+            "valuation": 178.5875377693853,
+            "balance": "51042729495643445",
+            "activeBalance": "25207537331796569"
+          }
+        }
+      ],
+      "closedPositions": [
+        {
+          "marketId": "42161-0x0f249f735647992572eea231fc24b35f7b6b34e1",
+          "pt": {
+            "valuation": 0,
+            "balance": "0"
+          },
+          "yt": {
+            "valuation": 0,
+            "balance": "1917307325339311508621"
+          },
+          "lp": {
+            "valuation": 0,
+            "balance": "0",
+            "activeBalance": "0"
+          }
+        },
+        {
+          "marketId": "42161-0xf617792ea9dceb2208f4c440258b21d2f3fdb9a3",
+          "pt": {
+            "valuation": 0,
+            "balance": "0"
+          },
+          "yt": {
+            "valuation": 0,
+            "balance": "0"
+          },
+          "lp": {
+            "valuation": 0,
+            "balance": "0",
+            "activeBalance": "0"
+          }
+        },
+        {
+          "marketId": "42161-0x8621c587059357d6c669f72da3bfe1398fc0d0b5",
+          "pt": {
+            "valuation": 0,
+            "balance": "0"
+          },
+          "yt": {
+            "valuation": 0,
+            "balance": "0"
+          },
+          "lp": {
+            "valuation": 0,
+            "balance": "0",
+            "activeBalance": "0"
+          }
+        },
+        {
+          "marketId": "42161-0xe11f9786b06438456b044b3e21712228adcaa0d1",
+          "pt": {
+            "valuation": 0,
+            "balance": "0"
+          },
+          "yt": {
+            "valuation": 0,
+            "balance": "0"
+          },
+          "lp": {
+            "valuation": 0,
+            "balance": "0",
+            "activeBalance": "0"
+          }
+        },
+        {
+          "marketId": "42161-0xba4a858d664ddb052158168db04afa3cff5cfcc8",
+          "pt": {
+            "valuation": 0,
+            "balance": "0"
+          },
+          "yt": {
+            "valuation": 0,
+            "balance": "0"
+          },
+          "lp": {
+            "valuation": 0,
+            "balance": "0",
+            "activeBalance": "0"
+          }
+        },
+        {
+          "marketId": "42161-0x551c423c441db0b691b5630f04d2080caee25963",
+          "pt": {
+            "valuation": 0,
+            "balance": "0"
+          },
+          "yt": {
+            "valuation": 0,
+            "balance": "4916536822686700429583"
+          },
+          "lp": {
+            "valuation": 0,
+            "balance": "0",
+            "activeBalance": "0"
+          }
+        },
+        {
+          "marketId": "42161-0x5e03c94fc5fb2e21882000a96df0b63d2c4312e2",
+          "pt": {
+            "valuation": 0,
+            "balance": "0"
+          },
+          "yt": {
+            "valuation": 0,
+            "balance": "0"
+          },
+          "lp": {
+            "valuation": 0,
+            "balance": "0",
+            "activeBalance": "0"
+          }
+        },
+        {
+          "marketId": "42161-0xf9f9779d8ff604732eba9ad345e6a27ef5c2a9d6",
+          "pt": {
+            "valuation": 0,
+            "balance": "0"
+          },
+          "yt": {
+            "valuation": 0,
+            "balance": "0"
+          },
+          "lp": {
+            "valuation": 0,
+            "balance": "0",
+            "activeBalance": "0"
+          }
+        }
+      ],
+      "syPositions": [
+        {
+          "syId": "42161-0x50288c30c37fa1ec6167a31e575ea8632645de20",
+          "balance": "0"
+        },
+        {
+          "syId": "42161-0xc0cf4b266be5b3229c49590b59e67a09c15b22f4",
+          "balance": "0"
+        }
+      ],
+      "updatedAt": "2025-04-16T08:53:19.000Z"
+    }
+  ]
+}
