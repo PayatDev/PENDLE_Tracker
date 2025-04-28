@@ -2,7 +2,7 @@
   "positions": [
     {
       "chainId": 42161,
-      "totalOpen": 1,
+      "totalOpen": 2,
       "totalClosed": 8,
       "totalSy": 2,
       "openPositions": [
@@ -17,9 +17,25 @@
             "balance": "0"
           },
           "lp": {
-            "valuation": 179.11757765302943,
+            "valuation": 197.15000920244773,
             "balance": "51042729495643445",
             "activeBalance": "25207537331796569"
+          }
+        },
+        {
+          "marketId": "42161-0xcaf560681233b54c996ba06c71566fd30f32c973",
+          "pt": {
+            "valuation": 30.06639947186849,
+            "balance": "16364178299248763217"
+          },
+          "yt": {
+            "valuation": 0,
+            "balance": "0"
+          },
+          "lp": {
+            "valuation": 0,
+            "balance": "0",
+            "activeBalance": "0"
           }
         }
       ],
@@ -163,7 +179,7 @@
           "balance": "0"
         }
       ],
-      "updatedAt": "2025-04-16T08:53:19.000Z"
+      "updatedAt": "2025-04-28T07:19:04.000Z"
     }
   ]
 }
