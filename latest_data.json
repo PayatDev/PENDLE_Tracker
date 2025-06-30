@@ -2,10 +2,28 @@
   "positions": [
     {
       "chainId": 42161,
-      "totalOpen": 2,
-      "totalClosed": 8,
+      "totalOpen": 1,
+      "totalClosed": 10,
       "totalSy": 2,
       "openPositions": [
+        {
+          "marketId": "42161-0xd7eac6c9109d8c3977ebce4e7dbf0a5a9532e240",
+          "pt": {
+            "valuation": 0,
+            "balance": "0"
+          },
+          "yt": {
+            "valuation": 360.52701459783043,
+            "balance": "6539095145942430141"
+          },
+          "lp": {
+            "valuation": 0,
+            "balance": "0",
+            "activeBalance": "0"
+          }
+        }
+      ],
+      "closedPositions": [
         {
           "marketId": "42161-0x14fbc760efaf36781cb0eb3cb255ad976117b9bd",
           "pt": {
@@ -17,29 +35,11 @@
             "balance": "0"
           },
           "lp": {
-            "valuation": 245.39281124913938,
-            "balance": "51042729495643445",
-            "activeBalance": "25207537331796569"
-          }
-        },
-        {
-          "marketId": "42161-0xcaf560681233b54c996ba06c71566fd30f32c973",
-          "pt": {
-            "valuation": 104.16371991523603,
-            "balance": "50597897997414979243"
-          },
-          "yt": {
-            "valuation": 0,
-            "balance": "0"
-          },
-          "lp": {
             "valuation": 0,
             "balance": "0",
             "activeBalance": "0"
           }
-        }
-      ],
-      "closedPositions": [
+        },
         {
           "marketId": "42161-0x0f249f735647992572eea231fc24b35f7b6b34e1",
           "pt": {
@@ -167,6 +167,22 @@
             "balance": "0",
             "activeBalance": "0"
           }
+        },
+        {
+          "marketId": "42161-0xcaf560681233b54c996ba06c71566fd30f32c973",
+          "pt": {
+            "valuation": 0,
+            "balance": "0"
+          },
+          "yt": {
+            "valuation": 0,
+            "balance": "0"
+          },
+          "lp": {
+            "valuation": 0,
+            "balance": "0",
+            "activeBalance": "0"
+          }
         }
       ],
       "syPositions": [
@@ -179,7 +195,7 @@
           "balance": "0"
         }
       ],
-      "updatedAt": "2025-06-23T10:17:19.000Z"
+      "updatedAt": "2025-06-27T07:29:02.372Z"
     }
   ]
 }
