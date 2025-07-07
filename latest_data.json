@@ -13,13 +13,20 @@
             "balance": "0"
           },
           "yt": {
-            "valuation": 360.52701459783043,
-            "balance": "6539095145942430141"
+            "valuation": 358.9212291699089,
+            "balance": "6539095145942430141",
+            "claimTokenAmounts": [
+              {
+                "token": "42161-0xc0cf4b266be5b3229c49590b59e67a09c15b22f4",
+                "amount": "2660185932438499"
+              }
+            ]
           },
           "lp": {
             "valuation": 0,
             "balance": "0",
-            "activeBalance": "0"
+            "activeBalance": "0",
+            "claimTokenAmounts": []
           }
         }
       ],
@@ -195,7 +202,7 @@
           "balance": "0"
         }
       ],
-      "updatedAt": "2025-06-27T07:29:02.372Z"
+      "updatedAt": "2025-07-04T02:24:17.349Z"
     }
   ]
 }
