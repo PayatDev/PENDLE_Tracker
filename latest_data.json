@@ -2,34 +2,10 @@
   "positions": [
     {
       "chainId": 42161,
-      "totalOpen": 1,
-      "totalClosed": 10,
+      "totalOpen": 0,
+      "totalClosed": 11,
       "totalSy": 2,
-      "openPositions": [
-        {
-          "marketId": "42161-0xd7eac6c9109d8c3977ebce4e7dbf0a5a9532e240",
-          "pt": {
-            "valuation": 0,
-            "balance": "0"
-          },
-          "yt": {
-            "valuation": 514.1788031806376,
-            "balance": "6539095145942430141",
-            "claimTokenAmounts": [
-              {
-                "token": "42161-0xc0cf4b266be5b3229c49590b59e67a09c15b22f4",
-                "amount": "7455155468805893"
-              }
-            ]
-          },
-          "lp": {
-            "valuation": 0,
-            "balance": "0",
-            "activeBalance": "0",
-            "claimTokenAmounts": []
-          }
-        }
-      ],
+      "openPositions": [],
       "closedPositions": [
         {
           "marketId": "42161-0x14fbc760efaf36781cb0eb3cb255ad976117b9bd",
@@ -190,6 +166,22 @@
             "balance": "0",
             "activeBalance": "0"
           }
+        },
+        {
+          "marketId": "42161-0xd7eac6c9109d8c3977ebce4e7dbf0a5a9532e240",
+          "pt": {
+            "valuation": 0,
+            "balance": "0"
+          },
+          "yt": {
+            "valuation": 0,
+            "balance": "0"
+          },
+          "lp": {
+            "valuation": 0,
+            "balance": "0",
+            "activeBalance": "0"
+          }
         }
       ],
       "syPositions": [
@@ -202,7 +194,7 @@
           "balance": "0"
         }
       ],
-      "updatedAt": "2025-07-17T02:14:39.430Z"
+      "updatedAt": "2025-07-22T07:45:04.786Z"
     }
   ]
 }
