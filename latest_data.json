@@ -21,7 +21,8 @@
             "valuation": 0,
             "balance": "0",
             "activeBalance": "0"
-          }
+          },
+          "crossPtPositions": []
         },
         {
           "marketId": "42161-0x0f249f735647992572eea231fc24b35f7b6b34e1",
@@ -37,7 +38,8 @@
             "valuation": 0,
             "balance": "0",
             "activeBalance": "0"
-          }
+          },
+          "crossPtPositions": []
         },
         {
           "marketId": "42161-0xf617792ea9dceb2208f4c440258b21d2f3fdb9a3",
@@ -53,7 +55,8 @@
             "valuation": 0,
             "balance": "0",
             "activeBalance": "0"
-          }
+          },
+          "crossPtPositions": []
         },
         {
           "marketId": "42161-0x8621c587059357d6c669f72da3bfe1398fc0d0b5",
@@ -69,7 +72,8 @@
             "valuation": 0,
             "balance": "0",
             "activeBalance": "0"
-          }
+          },
+          "crossPtPositions": []
         },
         {
           "marketId": "42161-0xe11f9786b06438456b044b3e21712228adcaa0d1",
@@ -85,7 +89,8 @@
             "valuation": 0,
             "balance": "0",
             "activeBalance": "0"
-          }
+          },
+          "crossPtPositions": []
         },
         {
           "marketId": "42161-0xba4a858d664ddb052158168db04afa3cff5cfcc8",
@@ -101,7 +106,8 @@
             "valuation": 0,
             "balance": "0",
             "activeBalance": "0"
-          }
+          },
+          "crossPtPositions": []
         },
         {
           "marketId": "42161-0x551c423c441db0b691b5630f04d2080caee25963",
@@ -117,7 +123,8 @@
             "valuation": 0,
             "balance": "0",
             "activeBalance": "0"
-          }
+          },
+          "crossPtPositions": []
         },
         {
           "marketId": "42161-0x5e03c94fc5fb2e21882000a96df0b63d2c4312e2",
@@ -133,7 +140,8 @@
             "valuation": 0,
             "balance": "0",
             "activeBalance": "0"
-          }
+          },
+          "crossPtPositions": []
         },
         {
           "marketId": "42161-0xf9f9779d8ff604732eba9ad345e6a27ef5c2a9d6",
@@ -149,7 +157,8 @@
             "valuation": 0,
             "balance": "0",
             "activeBalance": "0"
-          }
+          },
+          "crossPtPositions": []
         },
         {
           "marketId": "42161-0xcaf560681233b54c996ba06c71566fd30f32c973",
@@ -165,7 +174,8 @@
             "valuation": 0,
             "balance": "0",
             "activeBalance": "0"
-          }
+          },
+          "crossPtPositions": []
         },
         {
           "marketId": "42161-0xd7eac6c9109d8c3977ebce4e7dbf0a5a9532e240",
@@ -181,7 +191,8 @@
             "valuation": 0,
             "balance": "0",
             "activeBalance": "0"
-          }
+          },
+          "crossPtPositions": []
         }
       ],
       "syPositions": [
@@ -194,7 +205,7 @@
           "balance": "0"
         }
       ],
-      "updatedAt": "2025-11-03T02:29:57.008Z"
+      "updatedAt": "2025-12-08T07:07:53.868Z"
     }
   ]
 }
